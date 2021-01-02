@@ -3,8 +3,8 @@
 salario = input("Digite o valor do seu salário: ")
 porcentagem = input("Digite a porcentagem do aumento: ")
 
-aumento = int(salario) * int(porcentagem) / 100
+aumento = (int(salario) * int(porcentagem)) / 100
 
-novosalario = int(salario) + (aumento)
+novosalario = int(salario) + aumento
 
 print ("O aumento é de: R$", aumento, "\nSeu novo salário é de: R$" , novosalario)
