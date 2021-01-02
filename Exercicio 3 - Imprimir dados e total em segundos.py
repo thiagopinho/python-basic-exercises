@@ -1,5 +1,4 @@
-#Escreva um programa que leia a quantidade de dias, horas, minutos e segundos do usuário. Calcule
-#o total em segundos.
+#Escreva um programa que leia a quantidade de dias, horas, minutos e segundos do usuário. Calcule o total em segundos.
 
 dia = input("Digite o dia: ") #Qntd total de dias * por 86400 (que equivale a um dia)
 hora = input("Digite o hora: ") #Qntd total de horas * por 3600 (que equivale a uma hora)
